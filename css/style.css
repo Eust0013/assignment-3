@@ -4,10 +4,19 @@
 }
 
 img {
-    width: 100px;
+    width: 100%;
 }
 
 header {
     background-color: #000;
     color: #fff;
+}
+
+.wrapper {
+    max-width: 940px;
+    margin: 0 auto;
+}
+
+header span {
+    text-align: ;left;
 }
