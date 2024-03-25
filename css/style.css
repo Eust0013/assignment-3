@@ -6,6 +6,11 @@ img {
     width: 100%;
 }
 
+body {
+    margin: 0;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
 header {
     background-color: #000;
     color: #fff;
@@ -48,7 +53,7 @@ ul li {
     filter: grayscale(70%);
 }
 
-h1 {
+#hero h1 {
     max-width: 60%;
     color: #fff;
     background: #000;
@@ -66,4 +71,26 @@ h1 {
 
 #about-me img {
     width: 30%;
+}
+
+h2 {
+    font-size: 2rem;
+}
+
+#services {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    gap: 30px;
+    background-color: #fafafa;
+}
+
+#services h2 {
+    max-width: 100%;
+    text-align: center;
+}
+
+.services-articles {
+    display: flex;
+    flex-direction: column;
+    margin: auto;
 }
