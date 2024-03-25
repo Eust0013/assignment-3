@@ -29,3 +29,26 @@ ul {
 ul li {
     margin-left: 20px;
 }
+
+#hero {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 600px;
+    background-image: url(../images/hands-typing.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center center;
+    filter: grayscale(70%);
+}
+
+h1 {
+    max-width: 60%;
+    color: #fff;
+    background: #000;
+    background-color: rgba(0, 0, 0, 0.5);
+    text-shadow: 2px 2px #000;
+    padding: 20px;
+    font-size: 3rem;
+    text-align: center;
+}
