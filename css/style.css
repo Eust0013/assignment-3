@@ -82,7 +82,7 @@ h2 {
 }
 
 #services h2 {
-    max-width: auto;
+    max-width: 600px;
     text-align: center;
 }
 
@@ -114,19 +114,19 @@ h2 {
 }
 
 #work h2 {
-    max-width: auto;
+    max-width: 600px;
     text-align: center;
 }
 
 #work p {
-    max-width: auto;
+    max-width: 600px;
     text-align: center;  
 }
 
 .workimages {
     display: grid;
-    grid-template-columns: repeat (6, 1fr);
-    grid-template-rows: repeat (2, 1fr);
+    grid-template-columns: repeat(6, 1fr);
+    grid-template-rows: repeat(2, 1fr);
     grid-template-areas: 
     "div1 div1 div1 div2 div2 div2"
     "div3 div3 div4 div4 div5 div5";
